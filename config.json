@@ -2,31 +2,31 @@
   "spider": "https://github.com/adamp714/myself/raw/refs/heads/main/fm.jar;md5;110a5f5feb11b89fe520973f6a90e20e",
   "wallpaper": "https://img.wdl.org/media/11606/wdl-11606-view.png",
   "sites": [
-    {
+   {
       "key": "csp_Miss",
-      "name": "MissAV (FongMi)",
+      "name": "MissAV (AI)",
       "type": 3,
       "api": "csp_Miss",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": ""
+      "ext": "https://missav.ai"
     },
     {
       "key": "csp_Jable",
-      "name": "Jable (FongMi)",
+      "name": "Jable",
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": ""
+      "ext": "https://jable.tv"
     },
     {
-      "key": "csp_JavDb",
-      "name": "JavDB (FongMi)",
+      "key": "csp_Gimy",
+      "name": "劇迷 (Gimy)",
       "type": 3,
-      "api": "csp_JavDb",
+      "api": "csp_Gimy",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
