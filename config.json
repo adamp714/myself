@@ -1,0 +1,43 @@
+{
+  "spider": "myself/fm.jar;md5;110a5f5feb11b89fe520973f6a90e20e",
+  "wallpaper": "https://img.wdl.org/media/11606/wdl-11606-view.png",
+  "sites": [
+    {
+      "key": "csp_Miss",
+      "name": "MissAV (FongMi)",
+      "type": 3,
+      "api": "csp_Miss",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "csp_Jable",
+      "name": "Jable (FongMi)",
+      "type": 3,
+      "api": "csp_Jable",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "csp_JavDb",
+      "name": "JavDB (FongMi)",
+      "type": 3,
+      "api": "csp_JavDb",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    }
+  ]
+}
