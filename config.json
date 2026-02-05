@@ -1,20 +1,30 @@
 {
-  "spider": "https://github.com/adamp714/myself/raw/refs/heads/main/fm.jar;md5;110a5f5feb11b89fe520973f6a90e20e",
-  "wallpaper": "https://img.wdl.org/media/11606/wdl-11606-view.png",
+  "spider": "./custom_spider.jar;md5;110a5f5feb11b89fe520973f6a90e20e",
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "sites": [
-   {
+    {
+      "key": "csp_Gimy",
+      "name": "劇迷 (Gimy) | 推薦",
+      "type": 3,
+      "api": "csp_Gimy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gimy.ai" 
+    },
+    {
       "key": "csp_Miss",
-      "name": "MissAV (AI)",
+      "name": "MissAV (最新線路)",
       "type": 3,
       "api": "csp_Miss",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://missav.ws/dm265"
+      "ext": "https://missav.ai"
     },
     {
       "key": "csp_Jable",
-      "name": "Jable",
+      "name": "Jable (穩定)",
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
@@ -23,21 +33,44 @@
       "ext": "https://jable.tv"
     },
     {
-      "key": "csp_Gimy",
-      "name": "劇迷 (Gimy)",
+      "key": "csp_Zxzj",
+      "name": "在線之家 (美劇強)",
       "type": 3,
-      "api": "csp_Gimy",
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Libvio",
+      "name": "Libvio (影視)",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Bili",
+      "name": "嗶哩嗶哩 (B站)",
+      "type": 3,
+      "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gimyai.tv/"
+      "ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bilibili.json"
     }
   ],
   "parses": [
     {
-      "name": "解析聚合",
+      "name": "聚合解析",
       "type": 3,
       "url": "Demo"
+    },
+    {
+      "name": "Web解析",
+      "type": 3,
+      "url": "Web"
     }
   ]
 }
