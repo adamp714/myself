@@ -1,20 +1,20 @@
 {
-  "spider": "https://github.com/adamp714/myself/raw/refs/heads/main/custom_spider.jar;md5;110a5f5feb11b89fe520973f6a90e20e",
- "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "sites": [
     {
-      "key": "csp_Gimy_ST",
-      "name": "劇迷 (ST線路)",
+      "key": "csp_Gimy",
+      "name": "劇迷 (官方源)",
       "type": 3,
       "api": "csp_Gimy",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gimy.st"
+      "ext": "https://gimy.ai"
     },
     {
       "key": "csp_Zxzj",
-      "name": "在線之家 (推薦備用)",
+      "name": "在線之家 (官方源)",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -22,23 +22,14 @@
       "filterable": 1
     },
     {
-      "key": "csp_Nmys",
-      "name": "農民影視 (速度快)",
-      "type": 3,
-      "api": "csp_Nmys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Miss",
-      "name": "MissAV (WS線路)",
+      "name": "MissAV (官方源)",
       "type": 3,
       "api": "csp_Miss",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://missav.ws"
+      "ext": "https://missav.ai"
     },
     {
       "key": "csp_Jable",
@@ -49,22 +40,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://jable.tv"
-    },
-    {
-      "key": "csp_Libvio",
-      "name": "Libvio (影視)",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    }
-  ],
-  "parses": [
-    {
-      "name": "聚合解析",
-      "type": 3,
-      "url": "Demo"
     }
   ]
 }
