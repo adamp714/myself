@@ -2,53 +2,44 @@
   "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "sites": [
-    {
-      "key": "csp_Auete",
-      "name": "奧特影視 (防封測試)",
+   {
+      "key": "csp_Gimy_Web",
+      "name": "劇迷 (網頁模式)",
       "type": 3,
-      "api": "csp_Auete",
+      "api": "csp_Web",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://gimy.ai"
     },
     {
-      "key": "csp_Nmys",
-      "name": "農民影視 (備用)",
+      "key": "csp_Miss_Web",
+      "name": "MissAV (網頁模式)",
       "type": 3,
-      "api": "csp_Nmys",
+      "api": "csp_Web",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Gimy_NB",
-      "name": "劇迷 (NB線路)",
-      "type": 3,
-      "api": "csp_Gimy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gimy.nb"
-    },
-    {
-      "key": "csp_Gimy_TV",
-      "name": "劇迷 (TV線路)",
-      "type": 3,
-      "api": "csp_Gimy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gimy.tv"
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://missav.ai"
     },
     {
       "key": "csp_Jable",
-      "name": "Jable (目前正常)",
+      "name": "Jable (原生)",
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://jable.tv"
+    },
+    {
+      "key": "csp_Zxzj",
+      "name": "在線之家 (原生)",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ]
 }
