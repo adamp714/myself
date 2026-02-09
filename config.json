@@ -3,37 +3,46 @@
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "sites": [
     {
-      "key": "csp_Gimy",
-      "name": "劇迷 (官方源)",
+      "key": "csp_Auete",
+      "name": "奧特影視 (防封測試)",
       "type": 3,
-      "api": "csp_Gimy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gimy.ai"
-    },
-    {
-      "key": "csp_Zxzj",
-      "name": "在線之家 (官方源)",
-      "type": 3,
-      "api": "csp_Zxzj",
+      "api": "csp_Auete",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "csp_Miss",
-      "name": "MissAV (官方源)",
+      "key": "csp_Nmys",
+      "name": "農民影視 (備用)",
       "type": 3,
-      "api": "csp_Miss",
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Gimy_NB",
+      "name": "劇迷 (NB線路)",
+      "type": 3,
+      "api": "csp_Gimy",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://missav.ai"
+      "ext": "https://gimy.nb"
+    },
+    {
+      "key": "csp_Gimy_TV",
+      "name": "劇迷 (TV線路)",
+      "type": 3,
+      "api": "csp_Gimy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gimy.tv"
     },
     {
       "key": "csp_Jable",
-      "name": "Jable",
+      "name": "Jable (目前正常)",
       "type": 3,
       "api": "csp_Jable",
       "searchable": 1,
